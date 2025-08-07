@@ -230,3 +230,47 @@ pyrightconfig.json
 .coverage/
 .history/
 playground.py
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+vendor/
+
+# Rust (for future)
+/target
+**/*.rs.bk
+Cargo.lock
+
+# JavaScript/TypeScript (for future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+*.tsbuildinfo
+
+# Java (for future)
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# C/C++ (for future)
+*.o
+*.obj
+*.app
+*.dSYM/
