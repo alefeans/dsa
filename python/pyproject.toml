@@ -12,7 +12,7 @@ pytest = "^7.4.1"
 pytest-watch = "^4.2.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.7.0"
+black = "^24.3.0"
 mypy = "^1.5.1"
 
 [build-system]
